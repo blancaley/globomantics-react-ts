@@ -25,7 +25,7 @@ const NavigationLink = (props: {label: string; to: string}) => {
 export function Navigation() {
   const { url } = useRouteMatch();
 
-  throw Error("Oh no! Something went wrong...");
+  //throw Error("Oh no! Something went wrong...");
 
   return (
     <section className="banner">
